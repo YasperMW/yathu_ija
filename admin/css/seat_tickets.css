@@ -1,0 +1,69 @@
+
+
+      /* Modal styles */
+.modal {
+    display: none; /* Hide the modal by default */
+    position: fixed; /* Fixed position so it stays in the viewport */
+    z-index: 1; /* Set a high z-index to ensure it appears above other elements */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Enable scrolling if the content is too large */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* Center the modal vertically and horizontally */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px; /* Set a maximum width for the modal */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.modal-confirm-button,
+.modal-cancel-button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.modal-confirm-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+.modal-cancel-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+}
+
+.popup-modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.popup-content {
+    background-color: #181e75;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.close-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}

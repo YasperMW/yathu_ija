@@ -1,0 +1,153 @@
+.search-form {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 900px;
+    margin: 0 auto;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  label {
+
+    margin-bottom: 5px;
+  }
+  
+      input[type="date"],
+      select,
+      input[type="submit"],
+      input[type="text"],
+      input[type="email"],
+      input[type="number"] {
+          padding: 10px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          font-size: 16px;
+          width: 200px;
+      }
+
+      input[type="submit"]
+      {
+          background-color: #4CAF50;
+          color: white;
+          border: none;
+          cursor: pointer;
+      }
+
+
+      input[type="submit"]:hover {
+          background-color: #45a049;
+      }
+      #search-button {
+display: block;
+margin: 0 auto; /* This will center the button horizontally */
+}
+
+#confirm-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+#confirm-button:hover {
+  background-color: #45a049;
+}
+
+#cancel-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+#cancel-button:hover {
+  background-color: #da190b;
+}
+
+
+      table {
+          width: 100%;
+          border-collapse: collapse;
+          margin-top: 20px;
+      }
+
+      th, td {
+          border: 1px solid #ddd;
+          padding: 8px;
+          text-align: left;
+      }
+
+      th {
+          background-color: #f2f2f2;
+      }
+
+      /* Popup styles */
+      .overlay {
+          display: none;
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-color: rgba(0, 0, 0, 0.5);
+          z-index: 999;
+      }
+
+      .form-container {
+        display: flex;
+        justify-content: space-between;
+       
+    }
+
+    .form-section {
+        width: calc(50% - 10px); /* Adjust the width to leave space between sections */
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 40px;
+        margin: 40px;
+    }
+.button-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+      .popup {
+
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        z-index: 1000;
+        overflow-y: auto; /* Enable vertical scrolling */
+        max-height: 95vh; /* Set maximum height */
+        width : 850px;
+}
+
+
+      .popup label {
+          width: auto; /* Adjusted width for labels */
+          text-align: left; /* Align labels to the left */
+          margin-right: 0; /* Removed margin for labels */
+          margin-bottom: 5px; /* Added margin bottom for better spacing */
+          display: block; /* Ensure labels are on a separate line */
+      }
+      
+
+      .error{
+        color: #da190b;
+      }
+
+
+     

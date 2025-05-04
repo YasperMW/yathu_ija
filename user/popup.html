@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pop-up Form Example</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a href="#" id="showForm">Book Now</a>
+
+<div id="popupForm" class="popup">
+  <form action="#" method="post">
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date" required><br><br>
+    
+    <label for="origin">Origin:</label>
+    <input type="text" id="origin" name="origin" required><br><br>
+    
+    <label for="destination">Destination:</label>
+    <input type="text" id="destination" name="destination" required><br><br>
+    
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
